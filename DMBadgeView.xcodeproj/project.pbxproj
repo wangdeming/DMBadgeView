@@ -15,6 +15,7 @@
 		98D954281EB8298400A4CF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D954261EB8298400A4CF9B /* LaunchScreen.storyboard */; };
 		98D954331EB8298400A4CF9B /* DMBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D954321EB8298400A4CF9B /* DMBadgeViewTests.m */; };
 		98D9543E1EB8298400A4CF9B /* DMBadgeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D9543D1EB8298400A4CF9B /* DMBadgeViewUITests.m */; };
+		98D9544E1EB829B500A4CF9B /* DMBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D9544D1EB829B500A4CF9B /* DMBadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		98D954391EB8298400A4CF9B /* DMBadgeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMBadgeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D9543D1EB8298400A4CF9B /* DMBadgeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBadgeViewUITests.m; sourceTree = "<group>"; };
 		98D9543F1EB8298400A4CF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D9544C1EB829B500A4CF9B /* DMBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBadgeView.h; sourceTree = "<group>"; };
+		98D9544D1EB829B500A4CF9B /* DMBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBadgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				98D9541C1EB8298300A4CF9B /* AppDelegate.m */,
 				98D9541E1EB8298300A4CF9B /* ViewController.h */,
 				98D9541F1EB8298300A4CF9B /* ViewController.m */,
+				98D9544B1EB8298E00A4CF9B /* DMBadgeView */,
 				98D954211EB8298300A4CF9B /* Main.storyboard */,
 				98D954241EB8298400A4CF9B /* Assets.xcassets */,
 				98D954261EB8298400A4CF9B /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				98D9543F1EB8298400A4CF9B /* Info.plist */,
 			);
 			path = DMBadgeViewUITests;
+			sourceTree = "<group>";
+		};
+		98D9544B1EB8298E00A4CF9B /* DMBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				98D9544C1EB829B500A4CF9B /* DMBadgeView.h */,
+				98D9544D1EB829B500A4CF9B /* DMBadgeView.m */,
+			);
+			name = DMBadgeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				98D954201EB8298300A4CF9B /* ViewController.m in Sources */,
 				98D9541D1EB8298300A4CF9B /* AppDelegate.m in Sources */,
 				98D9541A1EB8298300A4CF9B /* main.m in Sources */,
+				98D9544E1EB829B500A4CF9B /* DMBadgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "98D954141EB8298300A4CF9B"
+               BuildableName = "DMBadgeView.app"
+               BlueprintName = "DMBadgeView"
+               ReferencedContainer = "container:DMBadgeView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "98D9542D1EB8298400A4CF9B"
+               BuildableName = "DMBadgeViewTests.xctest"
+               BlueprintName = "DMBadgeViewTests"
+               ReferencedContainer = "container:DMBadgeView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "98D954381EB8298400A4CF9B"
+               BuildableName = "DMBadgeViewUITests.xctest"
+               BlueprintName = "DMBadgeViewUITests"
+               ReferencedContainer = "container:DMBadgeView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98D954141EB8298300A4CF9B"
+            BuildableName = "DMBadgeView.app"
+            BlueprintName = "DMBadgeView"
+            ReferencedContainer = "container:DMBadgeView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98D954141EB8298300A4CF9B"
+            BuildableName = "DMBadgeView.app"
+            BlueprintName = "DMBadgeView"
+            ReferencedContainer = "container:DMBadgeView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98D954141EB8298300A4CF9B"
+            BuildableName = "DMBadgeView.app"
+            BlueprintName = "DMBadgeView"
+            ReferencedContainer = "container:DMBadgeView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

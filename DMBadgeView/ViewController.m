@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "DMBadgeView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) UIButton *button;
+
+
+@property (nonatomic, strong) DMBadgeView *badgeView;
 
 @end
 
@@ -16,13 +22,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    self.button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 120, 30)];
+    [self.button setTitle:@"DMBadgeView" forState:UIControlStateNormal];
+    self.button.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:self.button];
+    
+    self.badgeView = [[DMBadgeView alloc]initWithParentView:self.button alignment:DMBadgeViewAlignmentTopRight];
+    self.badgeView.badgeText = @"1000000";
+    
+    
 }
 
 
